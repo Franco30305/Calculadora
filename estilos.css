@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+form{
+    height: 582px;
+    width: 400px;
+    background-color: #2b2a2a;
+    box-shadow: 0px 0px 8px rgb(151, 151, 151);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border-radius: 23px;
+}
+
+.operadores{
+    background-color: #2222eb;
+    border-radius: 100%;
+}
+
+.resultado-bar{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+#resultado{
+    font-size: 100px;
+    max-width: 400px;
+    padding-top: 90px;
+    margin-right: -16px;
+    margin-bottom: 30px;
+    padding-top: 20px; ;
+    justify-content: center;
+    background-color: #9B9B9B;
+    text-align: right;
+    height: 140px;
+    color: white;
+    border-radius: 20px;
+}
+
+.botones{
+    height: 390px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 21%);
+    grid-template-rows: repeat(5, 20%);
+    grid-gap: 3px;
+}
+
+.operador-out{
+    border-radius: 100%;
+    margin: 2px;
+    background-color: rgb(11, 185, 11);
+
+}
+
+.borra{
+    background-color: #3E3E3E;
+    border-radius: 100%;
+    margin: 2px;
+
+}
+
+input{
+    font-size: 30px;
+    color: white;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+    border-color: white;
+}
+
+input:hover{
+    filter: brightness(130%);
+}
+
+.operador{
+    border-radius: 100%;
+    margin: 2px;
+    background-color: #2222eb;
+
+}
+
+
+.num{
+    background-color: #3E3E3E;
+    border-radius: 100%;
+    margin: 2px;
+
+}
+
+.igual{
+    background-color: rgb(15, 12, 233);
+    border-radius: 100%;
+    margin: 2px;
+
+}
+
